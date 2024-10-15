@@ -7,7 +7,6 @@ To develop a Python program to find the optimal policy for the given RL environm
 Develop a Python program that implements a Monte Carlo control algorithm to find the optimal policy for navigating the FrozenLake environment. The program should initialize the environment, define parameters (discount factor, learning rate, exploration rate), and implement decay schedules for efficient learning. It must generate trajectories based on an epsilon-greedy action selection strategy and update the action-value function using sampled episodes. Evaluate the learned policy by calculating the probability of reaching the goal state and the average undiscounted return. Finally, print the action-value function, state-value function, and optimal policy.
 
 ## MONTE CARLO CONTROL ALGORITHM
-
 1. Initialize Q(s, a) arbitrarily for all state-action pairs
 2. Initialize returns(s, a) to empty for all state-action pairs
 3. Initialize policy π(s) to be arbitrary (e.g., ε-greedy)
